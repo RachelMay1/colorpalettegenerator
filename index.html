@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Pallet Generator</title>
+</head>
+<body>
+    <h1>Color Palette Generator</h1>
+    <main class="app-container">
+    <div class="settings">
+        <label for="color-count">Number of Colors:</label>
+        <select id="color-count">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+        </select>
+        <label for="color-format">Color Format:</label>
+        <select id="color-format">
+            <option value="hex">HEX</option>
+            <option value="rgb">RGB</option>
+        </select>
+        <label for="harmony">Color Harmony:</label>
+        <select id="harmony">
+            <option value="complementary">Complementary</option>
+            <option value="analogous">Analogous</option>
+            <option value="monochromatic">Monochromatic</option>
+            <option value="triad">Triadic</option>
+            <option value="random">Random</option>
+        </select>
+        <button id="generate-btn">Generate Color Palette</button>
+    </div>
+    <div id="color-palette"></div>
+    </main>
+<script src="app.js"></script>
+</body>
+</html>
