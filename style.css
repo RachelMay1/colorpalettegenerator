@@ -26,7 +26,8 @@ label {
 }
 
 #color-count,
-#color-format {
+#color-format,
+#harmony {
     font-family: 'Lexend', sans-serif;
     appearance: none;
     padding: 8px 12px;
